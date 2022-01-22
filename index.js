@@ -5,7 +5,7 @@ const path=require('path');
 const webRoutes = require('./routes/web');
 const connection=require('./config/database');
 connection.connect();
-
+const port=process.env.PORT || 8000;
 app.set('view engine', 'ejs');
 app.use(fileUpload({
     useTempFiles:true,
@@ -14,4 +14,4 @@ app.use(fileUpload({
 }));
 app.use(webRoutes);
 
-app.listen(8000,e=>console.log("Server Running On port 8000..."));
+app.listen(port,e=>console.log(`Server Running On port ${port}...`));
