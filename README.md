@@ -33,7 +33,7 @@ npm run dev
 ```
 ## Author
 
-- [**Promit Revar**]
+- [**Promit Revar**](https://promit-revar.github.io/Portfolio/)
 
 ## Contribute
 
