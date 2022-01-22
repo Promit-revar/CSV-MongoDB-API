@@ -16,10 +16,10 @@ Step 2: cd into the cloned repo and run:
 npm install
 ```
 
-Step 3(optional): Incase nodemon NOT installed globally on system.
+Step 3(optional): Install Nodemon as a dev dependency
 
 ```bash
-npm install -g nodemon
+npm install -D nodemon
 ```
 
 Step 4: Start the repo by
@@ -27,7 +27,10 @@ Step 4: Start the repo by
 ```bash
 npm start
 ```
-
+to run with nodemon 
+```bash
+npm run dev
+```
 ## Author
 
 - [**Promit Revar**]
@@ -38,4 +41,4 @@ You can fork this repo and send me a PR.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the ISC License.
